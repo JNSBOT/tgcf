@@ -1,0 +1,11 @@
+---
+application:
+  name: "tgcf"
+  project: "Tgcf2"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-tgcf"
+  routes:
+  - application_name: "tgcf"
+    paths:
+    - "/*"
